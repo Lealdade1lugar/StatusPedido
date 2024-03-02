@@ -23,6 +23,7 @@ public class Program {
         Client cli = new Client(name, email, birthDate);
         
         System.out.println("Enter order data:\n");
+        System.out.println("Option: PEDING_PAYMENT, PROCESSING, SHIPPED, DELIVERED");
         System.out.print("Status: ");
         OrderStatus status = OrderStatus.valueOf(sc.next());
 
